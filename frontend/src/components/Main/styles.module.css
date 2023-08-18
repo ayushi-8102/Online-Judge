@@ -1,3 +1,4 @@
+
 .navbar {
 	width: 100%;
 	height: 70px;
@@ -25,3 +26,83 @@
 	cursor: pointer;
 	margin-right: 20px;
 }
+/* Custom styling for the problem list */
+.problem_list {
+	padding: 20px;
+	border-radius: 8px;
+	box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+	background-color: #f5f5f5;
+  }
+  
+  /* Styling for the problem table section */
+  .problemtable {
+	margin-top: 20px;
+  }
+  
+  /* Styling for the content table */
+  .content-table {
+	width: 100%;
+	border-collapse: collapse;
+	background-color: #fff;
+	border-radius: 8px;
+	overflow: hidden;
+	box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  }
+  
+  .content-table th,
+  .content-table td {
+	padding: 12px 15px;
+	text-align: left;
+  }
+  
+  .content-table thead tr {
+	background-color: #f5f5f5;
+  }
+  
+  .content-table tbody tr:nth-child(even) {
+	background-color: #f0f0f0;
+  }
+  
+  /* Example animation class for fadeIn from animate.css */
+  .animated {
+	animation-duration: 1s;
+	animation-fill-mode: both;
+  }
+  
+  /* Customize the animation to your liking */
+  @keyframes fadeIn {
+	0% {
+	  opacity: 0;
+	  transform: translateY(20px);
+	}
+	100% {
+	  opacity: 1;
+	  transform: translateY(0);
+	}
+  }
+  
+  .fadeIn {
+	animation-name: fadeIn;
+  }
+  
+  /* Additional styling for the links */
+  a {
+	color: #007bff;
+	text-decoration: none;
+	transition: color 0.2s;
+  }
+  
+  a:hover {
+	color: #0056b3;
+  }
+  .green {
+	color: green;
+  }
+  
+  .yellow {
+	color: yellow;
+  }
+  
+  .red {
+	color: red;
+  }
