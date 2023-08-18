@@ -1,8 +1,8 @@
 import { Route, Routes, Navigate } from "react-router-dom";
+ import PP from "./components/Problem";
 import Main from "./components/Main";
 import Signup from "./components/Signup";
 import Login from "./components/Login";
-
 function App() {
 	const user = localStorage.getItem("token");
 
@@ -11,7 +11,9 @@ function App() {
 			{user && <Route path="/" exact element={<Main />} />}
 			<Route path="/signup" exact element={<Signup />} />
 			<Route path="/login" exact element={<Login />} />
+			 <Route path="/problems/:pid/" exact element={<PP />} />  
 			<Route path="/" element={<Navigate replace to="/login" />} />
+			
 		</Routes>
 	);
 }
