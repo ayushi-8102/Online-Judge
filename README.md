@@ -51,16 +51,14 @@ This is a comprehensive Online Judge project built using the MERN (MongoDB, Expr
 
 - **Frontend:** React.js
 - **Backend:** Node.js, Express.js, MongoDB
-- **Authentication:** Google auth / github auth
-- **Code Editor:** CodeMirror
-- **Real-time Communication:** Socket.IO
+- 
 
 ## Installation
 
 1. Clone the repository:
 
    ```shell
-   git clone https://github.com/Rytnix/OnlineJudge.git
+ 
    ```
 2. Navigate to the project directory:
 
